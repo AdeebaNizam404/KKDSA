@@ -18,14 +18,15 @@ public class Sum {
     }
     //Without Paremeters
      static int sum(){
-        Scanner in = new Scanner(System.in);
-       System.out.println("Enter number first:");
-       int a = in.nextInt();
-       System.out.println("Enter number Second:");
-       int b = in.nextInt();
-       int sum = a+b;
-       
-      return sum;
+        try (Scanner in = new Scanner(System.in)) {
+          System.out.println("Enter number first:");
+           int a = in.nextInt();
+           System.out.println("Enter number Second:");
+           int b = in.nextInt();
+           int sum = a+b;
+           
+          return sum;
+        }
     }
     }
 
