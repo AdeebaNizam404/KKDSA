@@ -1,11 +1,21 @@
 package Arrays.BinarySearch;
+import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
         Solution finder = new Solution();
-        int[] nums = {5, 7, 7, 8, 8, 10};
-        int target = 8;
-        int[] result = finder.searchRange(nums, target);
+     
+        System.out.println("Enter the size of array");
+        int n = in.nextInt();
+        int[] arr = new int[n];
+        System.out.println("Enter array elements");
+        for(int i=0;i<arr.length;i++){
+            arr[i]=in.nextInt();
+        }
+        System.out.println("Enter the target");
+        int target = in.nextInt();
+        int[] result = finder.searchRange(arr, target);
         System.out.println("First Position: " + result[0]);
         System.out.println("Last Position: " + result[1]);
     }
