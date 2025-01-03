@@ -1,10 +1,10 @@
 package Arrays.BinarySearch;
 import java.util.Scanner;
 
-public class Solution {
+public class LastAndFirstElement {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Solution finder = new Solution();
+        LastAndFirstElement finder = new LastAndFirstElement();
      
         System.out.println("Enter the size of array");
         int n = in.nextInt();
