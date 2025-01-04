@@ -3,20 +3,21 @@ import java.util.Scanner;
 
 public class LastAndFirstElement {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        LastAndFirstElement finder = new LastAndFirstElement();
-        System.out.println("Enter the size of array");
-        int n = in.nextInt();
-        int[] arr = new int[n];
-        System.out.println("Enter array elements");
-        for(int i=0;i<arr.length;i++){
-            arr[i]=in.nextInt();
-        } 
-        System.out.println("Enter the target");
-        int target = in.nextInt();
-        int[] result = finder.searchRange(arr, target);
-        System.out.println("First Position: " + result[0]);
-        System.out.println("Last Position: " + result[1]);
+        try (Scanner in = new Scanner(System.in)) {
+            LastAndFirstElement finder = new LastAndFirstElement();
+            System.out.println("Enter the size of array");
+            int n = in.nextInt();
+            int[] arr = new int[n];
+            System.out.println("Enter array elements");
+            for(int i=0;i<arr.length;i++){
+                arr[i]=in.nextInt();
+            } 
+            System.out.println("Enter the target");
+            int target = in.nextInt(); 
+            int[] result = finder.searchRange(arr, target);
+            System.out.println("First Position: " + result[0]);
+            System.out.println("Last Position: " + result[1]);
+        }
     }
 
     public int[] searchRange(int[] nums, int target) {
