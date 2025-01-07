@@ -60,7 +60,7 @@ static int[] search(int[][] matrix,int target){
       if(target<=matrix[rStart][cMid+1]&&target<matrix[rStart][cols-1]){
         return binarySearch(matrix,rStart,cMid+1, cols-1, target);
 
-      }
+      }//Search in thirdHalf
       if (target <= matrix[rStart + 1][cMid - 1]) {
         return binarySearch(matrix, rStart + 1, 0, cMid-1, target);
     } else {
