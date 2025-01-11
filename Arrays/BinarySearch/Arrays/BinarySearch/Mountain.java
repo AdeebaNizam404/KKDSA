@@ -1,3 +1,4 @@
+package Arrays.BinarySearch;
 import java.util.Scanner;
 class Mountain{
     
@@ -18,7 +19,7 @@ class Mountain{
             if(arr[mid]>arr[mid+1]){
 //decreasing part of array
             end = mid;
-            }
+            } 
             else{
                 //increasing  part of array
                 start = mid+1;

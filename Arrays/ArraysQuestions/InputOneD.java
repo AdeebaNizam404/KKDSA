@@ -1,7 +1,8 @@
-package Arrays;
-import java.util.Scanner;
+package Arrays.ArraysQuestions;
 import java.util.Arrays;
+import java.util.Scanner;
 public class InputOneD {
+    
     public static void main(String[] args){
      try (Scanner in = new Scanner(System.in)) {
         System.out.println("Enter an array");

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.ArraysQuestions;
 //import java.util.Scanner;
 import java.util.Arrays;
 public class Reverse {

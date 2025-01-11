@@ -1,3 +1,4 @@
+package Arrays.BinarySearch;
 import java.util.Arrays;
 public class BSTwoD {
   public static void main(String[] args) {
