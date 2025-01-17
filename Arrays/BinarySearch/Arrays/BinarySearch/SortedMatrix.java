@@ -25,7 +25,7 @@ public class SortedMatrix {
             }
         }
         return new int[]{-1, -1};
-    }
+     }
 
     static int[] search(int[][] matrix, int target) {
         int rows = matrix.length;
