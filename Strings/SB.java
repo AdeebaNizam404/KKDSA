@@ -12,5 +12,18 @@ public class SB {
         System.out.println(builder);
         builder.reverse();
         System.out.println(builder);
+        String a="Adeeba";
+        System.out.println(reverse(a));
     }
+    static String reverse(String strr){
+        int ch=strr.length()-1;
+        String n=" ";
+        while(ch>=0){
+        char c=strr.charAt(ch);
+          n=n+c;
+          ch--;  
+        }
+        return n;
+    }
+   
 }
