@@ -9,18 +9,14 @@ public class SearchInTwoD {
         for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr[i].length;j++){
              arr[i][j]=in.nextInt();
-            }
-        }
-        System.out.println("The array you entred");
-        for(int i=0;i<arr.length;i++){
-            System.out.println(Arrays.toString(arr[i]));
-        }
+            }   
 
-        System.out.println("Enter Element you are looking for");
-        int t = in.nextInt();
-        System.out.println(search(arr,t));
-    }
-    static boolean search(int[][] ar,int target){
+                System.out.println("Enter Element you are looking for");
+                int t = in.nextInt();
+                System.out.println(search(arr,t));
+                                }
+            }
+            static boolean search(int[][] ar,int target){
         if(ar.length==0){
             return false;
         }
