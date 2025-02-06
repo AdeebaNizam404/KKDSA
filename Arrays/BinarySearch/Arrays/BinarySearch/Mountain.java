@@ -2,6 +2,7 @@ package Arrays.BinarySearch;
 import java.util.Scanner;
 class Mountain{
 
+    @SuppressWarnings("resource")
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int n =  in.nextInt();

@@ -2,6 +2,7 @@ package Arrays.BinarySearch;
 import java.util.Scanner;
 public class Program {
     public static void main(String[] args){
+        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the the size of array");
         int n= in.nextInt();

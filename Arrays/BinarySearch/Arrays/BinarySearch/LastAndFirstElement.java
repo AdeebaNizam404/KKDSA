@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class LastAndFirstElement {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner in = new Scanner(System.in);
         LastAndFirstElement finder = new LastAndFirstElement();
      
