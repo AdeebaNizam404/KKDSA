@@ -2,6 +2,7 @@ package Sorting;
 import java.util.Scanner;
 import java.util.Arrays;
 public class BubbleSort {
+   //with each paas the largest is at end 
  public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int n =sc.nextInt();//taking array input;
@@ -15,7 +16,7 @@ public class BubbleSort {
  }
  static void bubble(int[] ar){
     boolean swapped;
-    //tun the step n-1 times;
+    //run the step n-1 times;
     for (int i=0;i<ar.length;i++){
         swapped=false;
         //for every step max item will come at the last respective index

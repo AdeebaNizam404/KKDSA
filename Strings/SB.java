@@ -9,7 +9,6 @@ public class SB {
         }
         System.out.println(builder.toString());
         builder.deleteCharAt(0);
-        System.out.println(builder);
         builder.reverse();
         System.out.println(builder);
         String a="Adeeba";
