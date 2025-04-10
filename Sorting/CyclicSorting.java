@@ -11,14 +11,14 @@ public class CyclicSorting {
         }
         
         cyclic(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr)); 
     }
     static void cyclic(int[] ar){
         int i=0;
          while(i<ar.length){
             int correct=ar[i]-1;
            if(ar[i]!=ar[correct]){
-            //swap
+            //swapkjhuyhnjhjnn kr nbhi 
             int tem=ar[i];
             ar[i]=ar[correct];
             ar[correct]=tem;
