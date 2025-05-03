@@ -1,6 +1,6 @@
 package Arrays.LinearSearch;
 import java.util.Scanner;
-import java.util.Arrays;
+
 public class SearchInTwoD {
     public static void main(String[] args){
         Scanner in = new Scanner (System.in);
@@ -15,6 +15,7 @@ public class SearchInTwoD {
                 int t = in.nextInt();
                 System.out.println(search(arr,t));
                                 }
+                                in.close();
             }
             static boolean search(int[][] ar,int target){
         if(ar.length==0){

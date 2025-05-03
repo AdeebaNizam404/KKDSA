@@ -9,7 +9,7 @@ public class Hard {
         pattern3(5);
     }
     static void pattern1(int n){
-        for(int i=1;i<=n;i++){
+        for(int i=1;i<=n;i++){ 
             for(int space=0;space<n-i;space++){
                 System.out.print("  ");
             }

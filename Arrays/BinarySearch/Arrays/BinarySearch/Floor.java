@@ -14,6 +14,7 @@ public class Floor {
         System.out.println("Enter the target");
         int t = in.nextInt();
         System.out.println(floor(arr,t));
+        in.close();
     }
     static int floor(int[] ar,int target){
         if(target>ar[ar.length-1]){

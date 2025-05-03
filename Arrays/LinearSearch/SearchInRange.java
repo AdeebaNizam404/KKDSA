@@ -16,7 +16,9 @@ public class SearchInRange {
         System.out.println("Enter the element you want to find");
          int ele = in.nextInt();
        System.out.println(linearSearch(arr,ele,s,e));
+       in.close();
     }
+
     static boolean linearSearch(int[]ar,int target, int start,int end){
         if(ar.length==0){
             return false;

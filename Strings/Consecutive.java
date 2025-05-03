@@ -7,6 +7,7 @@ public class Consecutive {
  Scanner in = new Scanner(System.in);
  String str=in.nextLine();
  wordCount(str);
+ in.close();
   }
  
   static  void  wordCount(String n){

@@ -27,6 +27,7 @@ public class RotatedArrayWithDuplicate {
         } else {
             System.out.println("Target not found in the array.");
         }
+        in.close();
     }
 
     static int search(int[] nums, int t) {

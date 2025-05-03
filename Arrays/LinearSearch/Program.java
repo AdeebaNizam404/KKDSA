@@ -14,6 +14,7 @@ public class Program {
          int target = in.nextInt();
          int ans = linearSearch(ar, target);
          System.out.println(ans);
+         in.close();
     }
     static int linearSearch(int[] arr,int target){
         if(arr.length==0){

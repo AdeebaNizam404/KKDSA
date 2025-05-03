@@ -18,5 +18,6 @@ public class ExtractVowel {
       }
      }
      System.out.println(Vowel+"\n"+count);
+     in.close();
     }
 }

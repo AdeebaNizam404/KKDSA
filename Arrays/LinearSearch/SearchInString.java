@@ -9,6 +9,7 @@ public class SearchInString {
        System.out.println("Enter an element you want to find");
        char target = in.next().charAt(0);
       System.out.println(Search(n,target)); 
+      in.close();
     }
     static boolean Search(String str,char ch){
          if (str.length()==0){

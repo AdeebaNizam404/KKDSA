@@ -15,6 +15,7 @@ public class PowerOfTwo {
       else{
         System.out.println("False");
       }
+      in.close();
      
     }
    } 

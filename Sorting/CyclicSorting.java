@@ -12,6 +12,7 @@ public class CyclicSorting {
         
         cyclic(arr);
         System.out.println(Arrays.toString(arr)); 
+        in.close();
     }
     static void cyclic(int[] ar){
         int i=0;

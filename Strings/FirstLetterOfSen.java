@@ -18,7 +18,8 @@ public class FirstLetterOfSen {
                 isWordStart=false;
               }
             }
-        System.out.println(firstLetter) ;   
+        System.out.println(firstLetter) ;
+        in.close();   
      
     }
 }

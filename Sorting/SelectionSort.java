@@ -11,6 +11,7 @@ public class SelectionSort {
         }
         selection(arr);
         System.out.println(Arrays.toString(arr));
+        in.close();
     }
     static void selection(int[] ar){
         for(int i=0;i<ar.length;i++){

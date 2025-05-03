@@ -12,7 +12,7 @@ public class Minimum {
        Arrays.toString(arr);
       
         System.out.println("Minimum element"+ minimum(arr));
-
+        in.close();
     }
     static int  minimum(int[] ar ){
         int min=ar[0];

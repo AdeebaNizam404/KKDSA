@@ -10,8 +10,10 @@ public class BubbleSort {
     for(int i=0;i<arr.length;i++){
         arr[i]=sc.nextInt();
     }
+     sc.close();
     bubble(arr);  
       System.out.println(Arrays.toString(arr));
+     
 
  }
  static void bubble(int[] ar){
@@ -36,4 +38,5 @@ public class BubbleSort {
    }
 }
  }
+ 
 }

@@ -25,8 +25,10 @@ class RotatedArray_Pivot {
         if (result != -1) {
             System.out.println("Target found at index: " + result);
         } else {
+            
             System.out.println("Target not found in the array.");
         }
+        in.close();
     }
 
     static int search(int[] nums, int t) {
