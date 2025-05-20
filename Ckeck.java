@@ -1,6 +1,7 @@
 // import java.util.Scanner;
 public class Ckeck {
     public static void main(String[] args) {
+      System.out.println(LCM(6,8));
    //      Scanner in = new Scanner(System.in);
    //   int[] arr= new int[5];
    //   int max=0;
@@ -14,10 +15,20 @@ public class Ckeck {
    //   }
    //   System.out.println("maximum:"+max);
    //  in.close();
-
-    char ch = 'a'+1;
- System.out.println(ch);
-    int c = (int)ch;
- System.out.println(c);
+// -----------------------------------------------------
+//     char ch = 'a'+1;
+//  System.out.println(ch);
+//     int c = (int)ch;
+//  System.out.println(c);
      }
+  static int LCM(int a, int b){
+int max = Math.max(a, b);
+
+while(true){
+   if(max%a==0&&max%b==0){
+     return max;
+   }
+ max++;
+  }
+}
 }
