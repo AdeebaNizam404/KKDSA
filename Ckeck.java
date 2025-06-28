@@ -1,6 +1,9 @@
 // import java.util.Scanner;
 public class Ckeck {
     public static void main(String[] args) {
+      String str1="wel";
+      String str2="elc";
+      System.out.println(str1.compareTo(str2));
       System.out.println(LCM(6,8));
    //      Scanner in = new Scanner(System.in);
    //   int[] arr= new int[5];
