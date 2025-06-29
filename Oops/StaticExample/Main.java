@@ -1,12 +1,13 @@
 package Oops.StaticExample;
 
 public class Main {
+    @SuppressWarnings("unused")
     public static void main(String[] args){
         Human adeeba = new Human(20,"Adeeba",50000,false);
         Human riya = new Human(20,"Riya",80000,false);
         System.out.println(adeeba.name);
-        System.out.println(adeeba.population);
-        System.out.println(riya.population);
+        System.out.println(Human.population);
+        System.out.println(Human.population);
         fun();
         Main funn= new Main();
        funn.fun2();

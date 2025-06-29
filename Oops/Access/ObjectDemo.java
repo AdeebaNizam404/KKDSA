@@ -25,6 +25,6 @@ public class ObjectDemo {
     }
     @Override
     protected void finalize() throws Throwable{
-        super.finalize();
+       // super.finalize();
     }
 }

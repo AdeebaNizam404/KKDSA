@@ -8,8 +8,8 @@ public class InnerClasses {
         }
     }
     public static void main(String[] args){
-        Test a = new Test("Adeeba");
-        Test b = new Test("Tooba");
+       // Test a = new Test("Adeeba");
+       // Test b = new Test("Tooba");
     }
 }
   
