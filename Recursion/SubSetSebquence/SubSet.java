@@ -8,7 +8,7 @@ public class SubSet {
      
   
     }
-    static void subsetans(String p, String up){
+    static void subsetans(String p, String up){    
         if(up.isEmpty()){
             System.out.println(p);
 
